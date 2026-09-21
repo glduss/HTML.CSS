@@ -1,0 +1,46 @@
+/*
+    선택자 1. 전체 선택자
+    선택자 { 속성: 속성값; }
+*/
+/* 태그가 인터프리터 통해 랜더링 된 것은 엘리먼트라고함
+    16진수 색상 코드 값
+    RGB 디지털 화면
+    CMYK 실물 인쇄물 */
+
+    /* 16 진수로 바꾼 값을 많이 씀
+        255 0 0 -> ff0000
+    */
+
+    /* goolge 검색 color picker */
+
+    /* 16진수 표기법 */
+* {
+    color: #f00;                /* 폰트 색상*/
+    border: 1px solid #00f;     /* 테두리 3가지 값 선두께, 선종류, 선색상 */
+}
+
+
+/*
+    선택자 2. 태그 선택자
+*/
+h3 {
+    color: #0f0;
+    border: 0px;
+}
+
+p {
+    color: #00f;
+    border: 1px dashed #00f; 
+}
+
+b {
+    color: #f0f;
+    background-color: #000;
+}
+
+input {
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}

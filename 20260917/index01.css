@@ -1,0 +1,64 @@
+/* 
+    선택자 2. 태그 선택자
+*/
+
+P {
+    color: #f00;
+}
+
+/* 
+    3. 클래스 선택자 *****
+    html에서 클래스 이름은 1개 이상일 수 있다.
+    그리고, 클래스 이름은 중복 사용 가능하다.
+*/
+
+.news02 {
+    color: #00f;
+}
+
+.news01 {
+    color: #000;
+}
+
+/* 
+    선택자 4. ID(아이디) 선택자 *****
+    html에서 ID이름은 무조건 1개 이어야한다.
+    그리고 ID 이름은 절대 중복 사용 불가하다.
+*/
+
+#novel {
+    color: #0ff;
+}
+
+/* 
+    선택자 5. (Attribute) 속성 선택자 ****
+    html tag의 속성을 이용해서 element를 선택하는 선택자 이다.
+*/
+
+input {
+    color: #000;
+}
+
+input[type='password'] {
+    color: #00f;
+}
+
+/* 
+    학습차원에서 억지로 만든 코드일뿐
+    적용이 되긴함 하지만
+    우선순위가 위에 ID 선택자가 높아서
+    속성 선택자가 안먹히는 것
+    우선순위 생각하면서 코딩하지 말것 죽어도 못함 
+*/
+p[id='novel'] {
+    color: #ff0;
+}
+
+input.idpw {
+    border: 1px solid #ccc;
+    outline: none;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+

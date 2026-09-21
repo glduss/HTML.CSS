@@ -1,0 +1,24 @@
+body {
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+h1 {
+    border: 1px dashed;
+    border-radius: 10px;
+}
+
+div {
+    color: #ffa07f;
+    border-bottom: 1px solid color(srgb 0 0 0);
+}
+
+p {
+    color: #649b36;
+    border-bottom: 1px solid color(srgb 0 0 0);
+}
+
+li {
+    color: #00bf;
+}
